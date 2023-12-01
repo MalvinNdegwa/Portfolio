@@ -22,7 +22,7 @@ export default function Projects() {
                                 href='https://github.com/MalvinNdegwa/Farmer-s-Seed-Distribution-System'
                                 rel="noreferrer"
                                 target='_blank'
-                                className='flex mt-10 bg-blue-500 rounded-full text-white font-bold py-2 px-4 max-w-[200px]'>
+                                className='flex mt-10 bg-blue-500 rounded-full text-white font-bold py-2 px-4 max-w-[150px]'>
                                 View Code
                             </a>
                         </div>

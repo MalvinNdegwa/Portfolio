@@ -5,6 +5,7 @@ import About from './Components/About';
 import Projects from './Components/Projects';
 
 
+
 export default function App() {
   return (
     <div>
@@ -12,6 +13,7 @@ export default function App() {
       <Intro/>
       <About/>
       <Projects/>
+      
     </div>
   );
 }

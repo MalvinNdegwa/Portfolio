@@ -3,6 +3,7 @@ import Header from './Components/Header';
 import Intro from './Components/Intro';
 import About from './Components/About';
 import Projects from './Components/Projects';
+import Contacts from './Components/Contacts';
 
 
 
@@ -13,7 +14,7 @@ export default function App() {
       <Intro/>
       <About/>
       <Projects/>
-      
+      <Contacts/>
     </div>
   );
 }

@@ -32,7 +32,7 @@ export default function Projects() {
     ];
 
     return (
-        <div className="h-screen p-10">
+        <div className="p-10">
             <h1 className="text-center text-3xl font-bold mb-8">MY PROJECTS</h1>
             <p className="text-center text-2xl font-bold mb-8">
                 Here are some samples of my work

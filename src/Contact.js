@@ -1,3 +1,6 @@
+import github from './Components/Images/github.svg'
+import linkedin from './Components/Images/linkedin.svg'
+
 const Contact = () => {
     const emailAddress = 'Malvinmuthee4@gmail.com';
 
@@ -12,18 +15,21 @@ const Contact = () => {
 
                 <div className="mt-8 text-center text-gray-600">
                     <div className="flex justify-center mt-2">
-                        <a
-                            href="https://github.com/MalvinNdegwa"
-                            className="text-gray-600 hover:text-blue-500 mx-2"
-                            target='_blank'
-                            rel="noreferrer">
-                            Github
+                        <a href='https://github.com/MalvinNdegwa' target='_blank' rel="noreferrer">
+                            <img
+                                src={github}
+                                alt='Github logo'
+                                className='w-16 h-16'
+
+                            />
                         </a>
-                        <a href="https://www.linkedin.com/in/malvin-muthee-59a8a2210/"
-                            className="text-gray-600 hover:text-blue-500 mx-2"
-                            target='_blank'
-                            rel="noreferrer">
-                                linkedin
+                        <a href="https://www.linkedin.com/in/malvin-muthee-59a8a2210/" target='_blank' rel="noreferrer">
+                            <img
+                                src={linkedin}
+                                alt='Linkedin Logo'
+                                className='w-16 h-16 ml-10'
+
+                            />
                         </a>
                     </div>
                     <p>&copy; 2023 All rights reserved. Made by MALVIN MUTHEE</p>

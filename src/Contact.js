@@ -32,7 +32,7 @@ const Contact = () => {
                             />
                         </a>
                     </div>
-                    <p>&copy; 2023 All rights reserved. Made by MALVIN MUTHEE</p>
+                    <p className='mt-10'>&copy; 2023 All rights reserved. Made by MALVIN MUTHEE</p>
                 </div>
             </div>
 

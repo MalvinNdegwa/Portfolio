@@ -9,7 +9,7 @@ import php from './Images/php.svg';
 
 export default function About() {
     return (
-        <div className="p-8 ">
+        <div className="p-8  bg-intro text-white">
             <h1 className="text-center text-3xl font-bold mb-8"> About me </h1>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="justify-self-start">

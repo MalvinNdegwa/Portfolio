@@ -1,16 +1,26 @@
-import '../index.css'
-import {Link} from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
+
 export default function Header() {
+    const scrollToSection = (id) => {
+        const element = document.getElementById(id);
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
     return (
-        <div className="Navbar bg-amber-300	fixed top-0 w-screen" >
-            <p className='flex justify-between py-5 px-2'>
-                <Link to='/'>Malvin Ndegwa</Link>
-                <Link to='/' className='mr-4'>Home</Link>
-                <Link to='/intro' className='mr-4'>Intro</Link>
-                <Link to='/about' className='mr-4'>About</Link>
-                <Link to='/projects' className='mr-4'>Projects </Link>
-                <Link to='/contact' className='mr-4'>Contacts </Link>
-            </p>
+        <div className="Navbar bg-nav text-white fixed w-screen">
+            <div className='flex justify-between items-center py-5 px-2'>
+                <Link to='/' onClick={() => scrollToSection('intro')}>Malvin Ndegwa</Link>
+                <div className='flex'>
+                    <Link to='/' onClick={() => scrollToSection('intro')} className='mr-4'>Home</Link>
+                    <Link to='/' onClick={() => scrollToSection('intro')} className='mr-4'>Intro</Link>
+                    <Link to='/' onClick={() => scrollToSection('about')} className='mr-4'>About</Link>
+                    <Link to='/' onClick={() => scrollToSection('projects')} className='mr-4'>Projects</Link>
+                    <Link to='/' onClick={() => scrollToSection('contact')} className='mr-4'>Contacts</Link>
+                </div>
+            </div>
         </div>
-    )
+    );
 }

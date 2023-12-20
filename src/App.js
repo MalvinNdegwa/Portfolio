@@ -5,23 +5,15 @@ import Intro from './Components/Intro';
 import About from './Components/About';
 import Projects from './Components/Projects';
 import Contact from './Contact';
-import { Route, Routes, BrowserRouter } from 'react-router-dom';
-
 
 export default function App() {
   return (
     <div>
-      <BrowserRouter>
-          <Routes>
-            <Route path='/' element={<Header />} />
-            <Route path='/intro' element={<Intro />} />
-            <Route path='/about' element={<About />} />
-            <Route path='/projects' element={<Projects />} />
-            <Route path='/contact' element={<Contact />} />
-          </Routes>
-      </BrowserRouter>
+      <Header />
+      <div id="intro"><Intro /></div>
+      <div id="about"><About /></div>
+      <div id="projects"><Projects /></div>
+      <div id="contact"><Contact /></div>
     </div>
   );
 }
-
-

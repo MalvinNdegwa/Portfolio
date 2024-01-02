@@ -46,7 +46,7 @@ export default function Projects() {
                         </div>
                         <div className="flex flex-col">
                             <h2 className="text-2xl font-semibold underline mb-4">{project.title}</h2>
-                            <p className="text-gray-700">
+                            <p className="text-black">
                                 {project.description}
                             </p>
                             <div className="flex mt-4">

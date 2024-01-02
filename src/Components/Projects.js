@@ -1,6 +1,7 @@
 import React from 'react';
 import meme_generator from './Images/meme_generator.png';
 import farmers_seed from './Images/farmers_seed.png'
+import blog_app from './Images/blog_app.png'
 
 export default function Projects() {
     const projectDetails = [
@@ -8,7 +9,7 @@ export default function Projects() {
             id: 1,
             image: farmers_seed,
             title: "Farmers Seed Registration System",
-            description: "Minim esse eiusmod irure aliqua velit ad cupidatat eiusmod dolore culpa. Minim ipsum irure minim sit in sit. Lorem non nostrud minim laborum ut. Irure aute do labore consectetur eiusmod.",
+            description: "This is a web application that allows farmer's from within a county to directly order verified farming seeds from seed companies and therefore eliminating the middle man. The availability of verified seed leads to higher yields and therefore maximisation of profits for the farmers. The technologies used for the implementation are HTML, CSS, JavaScript and PHP and MySQL.",
             githubLink: "https://github.com/MalvinNdegwa/Farmer-s-Seed-Distribution-System",
             liveLink: ""
         },
@@ -16,15 +17,15 @@ export default function Projects() {
             id: 2,
             image: meme_generator,
             title: "Meme Generator",
-            description: "Minim esse eiusmod irure aliqua velit ad cupidatat eiusmod dolore culpa. Minim ipsum irure minim sit in sit. Lorem non nostrud minim laborum ut. Irure aute do labore consectetur eiusmod.",
+            description: "This is a web application that allows one to create memes from popular meme Images. The application allows users to write their desired text on top of the Images. The images are obtained from the popular memes API. The application was implemented using HTML, CSS, JavaScript, and ReactJS.",
             githubLink: "https://github.com/MalvinNdegwa/Meme-Generator",
             liveLink: "https://meme-generator-3779ce.netlify.app/"
         },
         {
             id: 3,
-            image: meme_generator,
+            image: blog_app,
             title: "Blog App",
-            description: "Minim esse eiusmod irure aliqua velit ad cupidatat eiusmod dolore culpa. Minim ipsum irure minim sit in sit. Lorem non nostrud minim laborum ut. Irure aute do labore consectetur eiusmod.",
+            description: "A web based blog application that allows users to read blogs. The users can also create accounts that will allow them to create and post their blogs. The blogs also offer image support. This application was implemented using HTML, CSS, JavaScript, ReactJS, NodeJS, ExpressJS and MongoDB.",
             githubLink: "https://github.com/MalvinNdegwa/Blog-app",
             liveLink: ""
         },
@@ -44,7 +45,7 @@ export default function Projects() {
                             <img className=" hover:scale-105 w-full h-auto" src={project.image} alt="meme_generator" />
                         </div>
                         <div className="flex flex-col">
-                            <h2 className="text-2xl font-semibold mb-4">{project.title}</h2>
+                            <h2 className="text-2xl font-semibold underline mb-4">{project.title}</h2>
                             <p className="text-gray-700">
                                 {project.description}
                             </p>
@@ -53,7 +54,7 @@ export default function Projects() {
                                     href={project.githubLink}
                                     rel="noreferrer"
                                     target='_blank'
-                                    className='flex bg-blue-500 rounded-full text-white font-bold py-2 px-4 max-w-[150px] mr-4'>
+                                    className='flex bg-white rounded-full text-black font-bold py-2 px-4 max-w-[150px] mr-4'>
                                     View Code
                                 </a>
                                 {project.liveLink && (
@@ -61,7 +62,7 @@ export default function Projects() {
                                         href={project.liveLink}
                                         rel="noreferrer"
                                         target='_blank'
-                                        className='flex bg-blue-500 rounded-full text-white font-bold py-2 px-4 max-w-[150px]'>
+                                        className='flex bg-white rounded-full text-black font-bold py-2 px-4 max-w-[150px]'>
                                         View Live
                                     </a>
                                 )}

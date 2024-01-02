@@ -12,7 +12,7 @@ export default function Header() {
     return (
         <div className="Navbar bg-nav text-white fixed w-screen">
             <div className='flex justify-between items-center py-5 px-2'>
-                <Link to='/' onClick={() => scrollToSection('intro')}>Malvin Ndegwa</Link>
+                <Link to='/' onClick={() => scrollToSection('intro')}>Malvin Muthee</Link>
                 <div className='flex'>
                     <Link to='/' onClick={() => scrollToSection('intro')} className='mr-4'>Home</Link>
                     <Link to='/' onClick={() => scrollToSection('intro')} className='mr-4'>Intro</Link>

@@ -8,7 +8,7 @@ export default function Intro() {
                     Software Engineer
                 </h2>
                 <p className="mt-4 text-lg text-white">
-                    Hello there, I'm Malvin Ndegwa. A passionate software engineer with a passion for using technology to solve challenging problems in society.
+                    Hello there, I'm Malvin Muthee. A passionate software engineer with a passion for using technology to solve challenging problems in society.
                 </p>
             </div>
         </div>

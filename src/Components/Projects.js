@@ -42,7 +42,7 @@ export default function Projects() {
                 {projectDetails.map((project) => (
                     <div key={project.id} className="grid grid-cols-1 md:grid-cols-2 gap-8 bg-yellow-300 p-8 rounded-lg shadow-lg mb-8">
                         <div>
-                            <img className=" hover:scale-105 w-full h-auto" src={project.image} alt="meme_generator" />
+                            <img className="hover:scale-105 w-full h-auto " src={project.image} alt="meme_generator" />
                         </div>
                         <div className="flex flex-col">
                             <h2 className="text-2xl font-semibold underline mb-4">{project.title}</h2>

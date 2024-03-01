@@ -13,16 +13,16 @@ import WordPress from './Images/wordpress.svg';
 export default function About() {
     return (
         <div className="p-8  bg-intro   ">
-            <h1 className="text-center text-3xl font-bold mb-8 text-white"> About me </h1>
+            <h1 className="text-center text-4xl sm:text-normal font-bold mb-8 text-white"> About me </h1>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="justify-self-start">
-                    <h2 className="text-2xl mb-4">Get To Know Me</h2>
-                    <p className="text-justify">
+                    <h2 className="text-4xl sm:text-normal mb-4">Get To Know Me</h2>
+                    <p className="text-justify text-2xl sm:text-normal">
                         As a junior software engineer, I possess a diverse skill set that spans both frontend and backend development. My expertise includes HTML, CSS, JavaScript, ReactJS, NodeJS, Tailwind, Python, PHP, SQL, MongoDB, and WordPress. I have cultivated these skills through a combination of coursework, internships, and personal projects. Known for my quick learning abilities and adaptability, I excel in navigating new work environments and embracing emerging technologies. My collaborative spirit thrives in both remote and on-site settings, where I contribute to the seamless development of outstanding applications.
                     </p>
                 </div>
                 <div className="text-center">
-                    <h2 className="text-2xl">My skills</h2>
+                    <h2 className="text-4xl sm:text-normal">My skills</h2>
 
                     <div className="flex flex-col justify-center items-center space-x-4 mt-10">
                         <div className="flex">

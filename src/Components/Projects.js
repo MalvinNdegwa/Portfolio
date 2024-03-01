@@ -35,7 +35,7 @@ export default function Projects() {
     return (
         <div className="p-10 bg-intro text-white">
             <h1 className="text-center text-3xl font-bold mb-8">MY PROJECTS</h1>
-            <p className="text-center text-2xl font-bold mb-8">
+            <p className="text-center text-3xl sm:text-normal font-bold mb-8">
                 Here are some samples of my work
             </p>
             <div>
@@ -45,8 +45,8 @@ export default function Projects() {
                             <img className="hover:scale-105 w-full h-auto " src={project.image} alt="meme_generator" />
                         </div>
                         <div className="flex flex-col">
-                            <h2 className="text-2xl font-semibold underline mb-4">{project.title}</h2>
-                            <p className="text-black">
+                            <h2 className="text-4xl sm:text-normal font-semibold underline mb-4">{project.title}</h2>
+                            <p className="text-black text-2xl sm:text-normal">
                                 {project.description}
                             </p>
                             <div className="flex mt-4">
@@ -54,7 +54,7 @@ export default function Projects() {
                                     href={project.githubLink}
                                     rel="noreferrer"
                                     target='_blank'
-                                    className='flex bg-white rounded-full text-black font-bold py-2 px-4 max-w-[150px] mr-4'>
+                                    className='flex bg-white rounded-full text-black text-3xl sm:text-normal font-bold py-2 px-4 max-w-[250px] mr-4'>
                                     View Code
                                 </a>
                                 {project.liveLink && (
@@ -62,7 +62,7 @@ export default function Projects() {
                                         href={project.liveLink}
                                         rel="noreferrer"
                                         target='_blank'
-                                        className='flex bg-white rounded-full text-black font-bold py-2 px-4 max-w-[150px]'>
+                                        className='flex bg-white rounded-full text-black text-3xl sm:text-normal font-bold py-2 px-4 max-w-[250px]'>
                                         View Live
                                     </a>
                                 )}

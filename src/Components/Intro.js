@@ -14,7 +14,7 @@ export default function Intro() {
                 <h2 className="text-4xl font-bold text-white">
                     Software Engineer
                 </h2>
-                <p className="mt-4 text-4xl sm:text-normal text-white">
+                <p className="mt-4 text-2xl sm:text-normal text-white">
                     Hello there, I'm Malvin Muthee. A passionate software engineer with a passion for using technology to solve challenging problems in society.
                 </p>
                 <Link

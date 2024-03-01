@@ -14,12 +14,12 @@ export default function Intro() {
                 <h2 className="text-4xl font-bold text-white">
                     Software Engineer
                 </h2>
-                <p className="mt-4 text-lg text-white">
+                <p className="mt-4 text-4xl sm:text-normal text-white">
                     Hello there, I'm Malvin Muthee. A passionate software engineer with a passion for using technology to solve challenging problems in society.
                 </p>
                 <Link
                     to='/' onClick={() => scrollToSection('contact')}
-                    className='flex items-center justify-center mt-20 bg-white rounded-full text-black font-bold py-2 px-4 max-w-[150px] mx-auto'>
+                    className='flex items-center justify-center mt-20 bg-white rounded-full text-black text-4xl sm:text-normal font-bold py-2 px-4 max-w-[250px] mx-auto'>
                     Contact me
                 </Link>
             </div>

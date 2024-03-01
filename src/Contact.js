@@ -8,9 +8,9 @@ const Contact = () => {
         <div className="">
             <div className="flex flex-col items-center justify-between p-4  bg-gray-100 bg-gradient-to-b from-intro to-transparent">
                 <div className="text-center">
-                    <h2 className="text-2xl font-bold mb-2">Contact</h2>
-                    <p>Wanna Talk? Don't hesitate to reach out!</p>
-                    <a href={`mailto:${emailAddress}`} className="text-blue-500 font-bold hover:underline">{emailAddress}</a>
+                    <h2 className="text-4xl sm:text-normal font-bold mb-2">Contact</h2>
+                    <p className='text-4xl sm:text-normal'>Wanna Talk? Don't hesitate to reach out!</p>
+                    <a href={`mailto:${emailAddress}`} className="text-blue-500 text-4xl sm:text-normal font-bold hover:underline">{emailAddress}</a>
                 </div>
 
                 <div className="mt-8 text-center text-gray-600">
@@ -32,7 +32,7 @@ const Contact = () => {
                             />
                         </a>
                     </div>
-                    <p className='mt-10'>&copy; 2023 All rights reserved. Made by MALVIN MUTHEE</p>
+                    <p className='mt-10 text-4xl sm:text-normal'>&copy; 2023 All rights reserved. Made by MALVIN MUTHEE</p>
                 </div>
             </div>
 

@@ -2,6 +2,8 @@ import React from 'react';
 import meme_generator from './Images/meme_generator.png';
 import farmers_seed from './Images/farmers_seed.png'
 import blog_app from './Images/blog_app.png'
+import credit_card from './Images/credit_card.png'
+
 
 export default function Projects() {
     const projectDetails = [
@@ -26,6 +28,14 @@ export default function Projects() {
             image: blog_app,
             title: "Blog App",
             description: "A web based blog application that allows users to read blogs. The users can also create accounts that will allow them to create and post their blogs. The blogs also offer image support. This application was implemented using HTML, CSS, JavaScript, ReactJS, NodeJS, ExpressJS and MongoDB.",
+            githubLink: "https://github.com/MalvinNdegwa/Blog-app",
+            liveLink: ""
+        },
+        {
+            id: 4,
+            image: credit_card,
+            title: "Fraud Detector using Machine Learning",
+            description: "This is a machine learning project that uses the logistic regression model to predict whether a transaction is legitimate or fraudulent depending on creadit card transaction details. The dataset used was obtained from kaggle.",
             githubLink: "https://github.com/MalvinNdegwa/Blog-app",
             liveLink: ""
         },
